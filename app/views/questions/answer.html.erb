@@ -1,0 +1,15 @@
+
+<div class="card mb-3">
+  <div class="card-body">
+    <p class="mb-1"><em><%= @question %></em></p>
+    <p class="text-muted">—You</p>
+  </div>
+</div>
+
+<div class="alert alert-warning">
+  <p class="mb-0"><%= @answer %></p>
+  <p class="text-muted mb-0">—Your coach</p>
+</div>
+
+<%= link_to 'Ask another question', ask_path, class: 'btn btn-primary mt-3' %>
+
